@@ -7,8 +7,7 @@ version: 2
 
 # Personal info
 name: Giovanni Colucci
-title: Digital Cloud Developer - Consultant
-Company: Deloitte Digital
+title: Digital Cloud Developer - Consultant @ Deloitte Digital
 email: coluccigiovanni16@gmail.com
 website: coluccigiovanni16.github.io/Know-Me/
 
@@ -16,17 +15,17 @@ website: coluccigiovanni16.github.io/Know-Me/
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+twitter_username: coluccigio16
+github_username:  coluccigiovanni16
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: coluccigiovanni16
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: coluccigiovanni16
+linkedin_username: coluccigiovanni16
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
