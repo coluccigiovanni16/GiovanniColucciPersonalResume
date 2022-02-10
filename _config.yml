@@ -84,13 +84,12 @@ content:
         title: Genomix4life
         link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
+        sub_title: Full Stack Developer
         caption: September 2017 - December 2017
         quote: >
-          HEALTH INFORMATICS - Chemoinformatics and chemogenomics, medical data interpretation, health imaging, bioinformatics
+          Genomix4Life S.r.l. is a spin-off of the University of Salerno
         description: | # this will include new lines to allow paragraphs
-          Implementation of Graph Machines using python, and their application to a dataset composed of molecule.
-
+Create a site hosted in localhost to manage a DB of PCR summary file in order to compute complex searching and filtering on data.
 - title: Education # Title for the section
   layout: list # Type of content section (list/text)
   content:
