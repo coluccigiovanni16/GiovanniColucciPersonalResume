@@ -1,5 +1,5 @@
 # Site
-repository: coluccigiovanni16/Know-Me
+repository: coluccigiovanni16/GiovanniColucciSF
 favicon: images/favicon.ico
 
 # Content configuration version
@@ -9,7 +9,7 @@ version: 2
 name: Giovanni Colucci
 title: Digital Cloud Developer - Consultant @ Deloitte Digital
 email: coluccigiovanni16@gmail.com
-website: coluccigiovanni16.github.io/Know-Me/
+website: coluccigiovanni16.github.io/GiovanniColucciSF/
 
 # Dark Mode (true/false/never)
 darkmode: false
