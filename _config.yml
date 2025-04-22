@@ -3,7 +3,7 @@ repository: coluccigiovanni16/GiovanniColucciSF
 favicon: images/favicon.ico
 
 # Content configuration version
-version: 3
+version: 2
 
 # Personal info
 name: Giovanni Colucci
@@ -40,80 +40,156 @@ about_content: |
     - Integration Solutions
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
   - title: Experience
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: Deloitte Digital
+        sub_title: Senior Consultant - Digital Cloud Engineer
+        caption: June 2023 - Present
+        link: https://www.deloittedigital.com
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Leading digital cloud engineering and Salesforce implementations for enterprise clients
+        description: |
+          - Lead the conceptualization and development of scalable solutions, meeting critical business needs
+          - Champion the implementation of CPQ, EPC, Data Raptors, and Flex Cards
+          - Design and deploy efficient Omniscripts and APEX solutions, enhancing system performance
+          - Facilitate integration using JSON, GIT, Jenkins, and Azure DevOps
+          - Spearheaded Agile methodologies, ensuring on-time, high-quality project delivery
+
+          **Key Projects:**
+          - NEOM Middle East (August 2023 - Present)
+          - MultiChoice South Africa (January 2022 - August 2023)
+
+      - layout: right
+        title: Deloitte Digital
+        sub_title: Consultant - Digital Cloud Engineer
+        caption: June 2021 - May 2023
+        link: https://www.deloittedigital.com
+        description: |
+          - Served as Technical Team Member for enterprise clients
+          - Performed analysis and solution research
+          - Developed solutions using Salesforce and Vlocity technologies
+
+          **Key Projects:**
+          - MultiChoice South Africa (January 2022 - May 2023)
+            - Implemented Omnistudio, Vlocity Digital Catalog, and custom LWC components
+            - Developed with APEX, JSON, and integrated with DevOps tools
+
+          - Vumatel South Africa (August 2021 - January 2022)
+            - Technical implementation of Vlocity and Salesforce solutions
+
+      - layout: right
+        title: Deloitte Digital
+        sub_title: Analyst - Digital Cloud Developer
+        caption: March 2020 - May 2021
+        link: https://www.deloittedigital.com
+        description: |
+          - Implemented Salesforce and Vlocity solutions for global clients
+
+          **Key Projects:**
+          - MultiChoice South Africa (December 2020 - August 2021)
+            - Service Cloud and WebChat Configuration
+            - Vlocity Digital Catalog implementation
+
+          - Foxtel Australia (May 2020 - December 2020)
+            - Service Cloud, KCS, Knowledge, and Community Cloud implementations
+            - Digital Engagement solutions including Messaging, Chat, and Einstein BOT
+
+      - layout: right
+        title: Greyc
+        sub_title: Degree Internship
+        caption: August 2019 - December 2019
+        description: |
+          - Research and development in Machine Learning and Graph Theory
+
+      - layout: right
+        title: Genomix4life srl
+        sub_title: Intern
+        caption: September 2016 - December 2016
+        description: |
+          - Technical internship supporting research operations
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: Politecnico di Milano
+        sub_title: Master's Degree in Digital Technologies for Innovation
+        caption: 2020 - 2022
+        description: |
+          - Specialized in Digital Business Models, Machine Learning, AI, and UX/UI Design
+          - Attained Salesforce Certifications and in-depth CRM mastery
+          - Honed leadership, time management, and communication skills
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: top-right
+        title: ENSICAEN - Ecole Nationale Supérieure d'Ingénieurs de Caen
+        sub_title: Machine Learning and Graph Theory
+        caption: 2019 - 2020
+        description: |
+          - Advanced studies in Machine Learning algorithms and Graph Theory applications
+
+      - layout: top-right
+        title: Università degli Studi di Salerno
+        sub_title: Master's in Computer Engineering
+        caption: 2017 - 2020
+        description: |
+          - Graduate-level computer engineering program with focus on software development
+
+      - layout: top-right
+        title: Università degli Studi di Salerno
+        sub_title: Bachelor's in Computer Engineering
+        caption: 2014 - 2017
+        description: |
+          - Foundational computer engineering education
+
+  - title: Certifications
+    layout: list
+    content:
+      - layout: top
+        title: Salesforce Certifications
+        description: |
+          - 26X Salesforce Certified Developer
+          - Salesforce Certified AI Specialist
+          - Salesforce Certified Data Cloud Consultant
+          - Salesforce Certified Application Architect
+          - Salesforce Certified Platform App Builder
+          - Vlocity Platform Developer
+
+      - layout: top
+        title: AWS Certifications
+        description: |
+          - AWS Certified Cloud Practitioner
+
+  - title: Skills & Expertise
+    layout: text
+    content: |
+      **Technical Skills**
+      - **Salesforce & Vlocity**: CPQ, EPC, Data Raptors, Flex Cards, Omniscripts, LWC, APEX
+      - **Development**: JavaScript, CSS, JSON, VS Code IDE
+      - **Integration**: Jenkins, GIT, Azure DevOps, AutoRabit, Mulesoft
+      - **Methodologies**: Agile, Technical Documentation
+
+      **Industry Knowledge**
+      - Specialized in Communications, Media, and Technology (CMT) industry solutions
+      - Knowledge of Vlocity Data packs (ESM, MSM)
+      - Exposure to TMForum APIs and Open API standards
+
+      **Languages**
+      - Italian (Native)
+      - English (Professional Working)
+      - French (Limited Working)
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
+baseurl: "/GiovanniColucciSF"
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
-
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+  - jekyll-seo-tag
