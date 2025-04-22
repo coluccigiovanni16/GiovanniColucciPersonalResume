@@ -181,12 +181,15 @@ content:
       - French (Limited Working)
 
 # Footer
-footer_show_references: true
-
-# Build settings
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+ footer_show_references: true
+ # references_title: References on request (Override references text)
+ 
+ # Build settings
+ remote_theme: sproogen/resume-theme
+ 
+ sass:
+   sass_dir: _sass
+   style: compressed
+ 
+ plugins:
+  - jekyll-seo-tag
