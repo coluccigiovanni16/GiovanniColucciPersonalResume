@@ -43,7 +43,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: top-left
         title: Deloitte Digital
         sub_title: Senior Consultant - Digital Cloud Engineer
         caption: June 2023 - Present
@@ -61,7 +61,7 @@ content:
           - NEOM Middle East (August 2023 - Present)
           - MultiChoice South Africa (January 2022 - August 2023)
 
-      - layout: right
+      - layout: top-left
         title: Deloitte Digital
         sub_title: Consultant - Digital Cloud Engineer
         caption: June 2021 - May 2023
@@ -79,7 +79,7 @@ content:
           - Vumatel South Africa (August 2021 - January 2022)
             - Technical implementation of Vlocity and Salesforce solutions
 
-      - layout: right
+      - layout: top-left
         title: Deloitte Digital
         sub_title: Analyst - Digital Cloud Developer
         caption: March 2020 - May 2021
@@ -96,14 +96,14 @@ content:
             - Service Cloud, KCS, Knowledge, and Community Cloud implementations
             - Digital Engagement solutions including Messaging, Chat, and Einstein BOT
 
-      - layout: right
+      - layout: top-left
         title: Greyc
         sub_title: Degree Internship
         caption: August 2019 - December 2019
         description: |
           - Research and development in Machine Learning and Graph Theory
 
-      - layout: right
+      - layout: top-left
         title: Genomix4life srl
         sub_title: Intern
         caption: September 2016 - December 2016
@@ -113,7 +113,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Politecnico di Milano
         sub_title: Master's Degree in Digital Technologies for Innovation
         caption: 2020 - 2022
@@ -122,21 +122,21 @@ content:
           - Attained Salesforce Certifications and in-depth CRM mastery
           - Honed leadership, time management, and communication skills
 
-      - layout: top-right
+      - layout: top-left
         title: ENSICAEN - Ecole Nationale Supérieure d'Ingénieurs de Caen
         sub_title: Machine Learning and Graph Theory
         caption: 2019 - 2020
         description: |
           - Advanced studies in Machine Learning algorithms and Graph Theory applications
 
-      - layout: top-right
+      - layout: top-left
         title: Università degli Studi di Salerno
         sub_title: Master's in Computer Engineering
         caption: 2017 - 2020
         description: |
-          - Graduate-level computer engineering program with focus on software development
+          - Graduate-level computer engineering program with a focus on software development
 
-      - layout: top-right
+      - layout: top-left
         title: Università degli Studi di Salerno
         sub_title: Bachelor's in Computer Engineering
         caption: 2014 - 2017
@@ -149,17 +149,40 @@ content:
       - layout: top
         title: Salesforce Certifications
         description: |
-          - 26X Salesforce Certified Developer
-          - Salesforce Certified AI Specialist
           - Salesforce Certified Data Cloud Consultant
+          - Salesforce Certified AI Specialist
+          - Professional Scrum Developer™ I (PSD I)
+          - Media Cloud Accredited Professional
+          - Salesforce Certified AI Associate
           - Salesforce Certified Application Architect
+          - Salesforce Certified Data Architect
+          - Salesforce Certified Sharing and Visibility Architect
+          - Salesforce Certified Advanced Administrator
+          - Salesforce Certified Business Analyst
+          - Salesforce Certified Sales Cloud Consultant
+          - Communications Cloud Accredited Professional
+          - Salesforce Certified Associate
+          - Salesforce Certified Field Service Consultant
+          - Salesforce Certified Platform Developer II
+          - Salesforce Certified Experience Cloud Consultant
+          - Salesforce Certified JavaScript Developer I
+          - Salesforce Certified OmniStudio Consultant
+          - Vlocity Communications Order Management Developer I
+          - Vlocity Communications CPQ Developer I
           - Salesforce Certified Platform App Builder
+          - Salesforce Certified Service Cloud Consultant
+          - Salesforce Certified Administrator
           - Vlocity Platform Developer
+          - Salesforce Certified Platform Developer I
+          - Einstein Prediction Builder Accredited Professional
+          - Process Automation Accredited Professional
+
 
       - layout: top
         title: AWS Certifications
         description: |
           - AWS Certified Cloud Practitioner
+          - AWS Certified AI Practitioner
 
   - title: Skills & Expertise
     layout: text
@@ -171,7 +194,7 @@ content:
       - **Methodologies**: Agile, Technical Documentation
 
       **Industry Knowledge**
-      - Specialized in Communications, Media, and Technology (CMT) industry solutions
+      - Specializing in Communications, Media, and Technology (CMT) industry solutions
       - Knowledge of Vlocity Data packs (ESM, MSM)
       - Exposure to TMForum APIs and Open API standards
 
