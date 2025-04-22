@@ -22,7 +22,7 @@ linkedin_username: coluccigiovanni16
 additional_links:
 - title: AWS Certified
   icon: fab fa-aws
-  url: #
+  url: https://aws.amazon.com/certification/
 
 # About Section
 about_title: About Me
@@ -181,15 +181,15 @@ content:
       - French (Limited Working)
 
 # Footer
- footer_show_references: true
- # references_title: References on request (Override references text)
- 
- # Build settings
- remote_theme: sproogen/resume-theme
- 
- sass:
-   sass_dir: _sass
-   style: compressed
- 
- plugins:
-  - jekyll-seo-tag
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/modern-resume-theme
+baseurl: "/GiovanniColucciSF"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
