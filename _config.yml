@@ -9,7 +9,6 @@ version: 2
 name: Giovanni Colucci
 title: Senior Cloud Engineer | Salesforce & Vlocity Expert
 email: coluccigiovanni16@gmail.com
-phone: +39 3807829969
 website: https://www.linkedin.com/in/coluccigiovanni16
 
 # Dark Mode (true/false/never)
@@ -43,7 +42,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: Deloitte Digital
         sub_title: Senior Consultant - Digital Cloud Engineer
         caption: June 2023 - Present
@@ -61,7 +60,7 @@ content:
           - NEOM Middle East (August 2023 - Present)
           - MultiChoice South Africa (January 2022 - August 2023)
 
-      - layout: top-left
+      - layout: left
         title: Deloitte Digital
         sub_title: Consultant - Digital Cloud Engineer
         caption: June 2021 - May 2023
@@ -79,7 +78,7 @@ content:
           - Vumatel South Africa (August 2021 - January 2022)
             - Technical implementation of Vlocity and Salesforce solutions
 
-      - layout: top-left
+      - layout: left
         title: Deloitte Digital
         sub_title: Analyst - Digital Cloud Developer
         caption: March 2020 - May 2021
@@ -96,14 +95,14 @@ content:
             - Service Cloud, KCS, Knowledge, and Community Cloud implementations
             - Digital Engagement solutions including Messaging, Chat, and Einstein BOT
 
-      - layout: top-left
+      - layout: left
         title: Greyc
         sub_title: Degree Internship
         caption: August 2019 - December 2019
         description: |
           - Research and development in Machine Learning and Graph Theory
 
-      - layout: top-left
+      - layout: left
         title: Genomix4life srl
         sub_title: Intern
         caption: September 2016 - December 2016
@@ -113,7 +112,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: Politecnico di Milano
         sub_title: Master's Degree in Digital Technologies for Innovation
         caption: 2020 - 2022
@@ -122,21 +121,21 @@ content:
           - Attained Salesforce Certifications and in-depth CRM mastery
           - Honed leadership, time management, and communication skills
 
-      - layout: top-left
+      - layout: left
         title: ENSICAEN - Ecole Nationale Supérieure d'Ingénieurs de Caen
         sub_title: Machine Learning and Graph Theory
         caption: 2019 - 2020
         description: |
           - Advanced studies in Machine Learning algorithms and Graph Theory applications
 
-      - layout: top-left
+      - layout: left
         title: Università degli Studi di Salerno
         sub_title: Master's in Computer Engineering
         caption: 2017 - 2020
         description: |
           - Graduate-level computer engineering program with a focus on software development
 
-      - layout: top-left
+      - layout: left
         title: Università degli Studi di Salerno
         sub_title: Bachelor's in Computer Engineering
         caption: 2014 - 2017
