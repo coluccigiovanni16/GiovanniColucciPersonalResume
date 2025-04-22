@@ -1,124 +1,189 @@
 # Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+repository: coluccigiovanni16/resume
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Giovanni Colucci
+title: Senior Cloud Engineer | Salesforce & Vlocity Expert
+email: coluccigiovanni16@gmail.com
+phone: +39 3807829969
+website: https://www.linkedin.com/in/coluccigiovanni16
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
-# xing_username: jekyll
-# pinterest_username: jekyll
-youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
+linkedin_username: coluccigiovanni16
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+- title: AWS Certified
+  icon: fab fa-aws
+  url: #
 
 # About Section
-# about_title: About Me
+about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+about_content: |
+  Results-driven Senior Consultant with over 5 years of expertise in Digital Cloud Engineering, specializing in Salesforce and Vlocity solutions for the Communications, Media, and Technology (CMT) industry. 
+  
+  Proven track record of designing and implementing scalable solutions, driving digital transformation, and exceeding client expectations. Adept in CPQ, EPC, Data Raptors, Omniscripts, LWC, APEX, and Vlocity technologies. Strong collaborator known for Agile project leadership.
+  
+  My key skills include:
+    - Salesforce & Vlocity Development
+    - Digital Transformation
+    - Cloud Engineering
+    - Agile Project Management
+    - Integration Solutions
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      - layout: right
+        title: Deloitte Digital
+        sub_title: Senior Consultant - Digital Cloud Engineer
+        caption: June 2023 - Present
+        link: https://www.deloittedigital.com
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          Leading digital cloud engineering and Salesforce implementations for enterprise clients
+        description: |
+          - Lead the conceptualization and development of scalable solutions, meeting critical business needs
+          - Champion the implementation of CPQ, EPC, Data Raptors, and Flex Cards
+          - Design and deploy efficient Omniscripts and APEX solutions, enhancing system performance
+          - Facilitate integration using JSON, GIT, Jenkins, and Azure DevOps
+          - Spearheaded Agile methodologies, ensuring on-time, high-quality project delivery
+          
+          **Key Projects:**
+          - NEOM Middle East (August 2023 - Present)
+          - MultiChoice South Africa (January 2022 - August 2023)
+      
+      - layout: right
+        title: Deloitte Digital
+        sub_title: Consultant - Digital Cloud Engineer
+        caption: June 2021 - May 2023
+        link: https://www.deloittedigital.com
+        description: |
+          - Served as Technical Team Member for enterprise clients
+          - Performed analysis and solution research
+          - Developed solutions using Salesforce and Vlocity technologies
+          
+          **Key Projects:**
+          - MultiChoice South Africa (January 2022 - May 2023)
+            - Implemented Omnistudio, Vlocity Digital Catalog, and custom LWC components
+            - Developed with APEX, JSON, and integrated with DevOps tools
+          
+          - Vumatel South Africa (August 2021 - January 2022)
+            - Technical implementation of Vlocity and Salesforce solutions
+      
+      - layout: right
+        title: Deloitte Digital
+        sub_title: Analyst - Digital Cloud Developer
+        caption: March 2020 - May 2021
+        link: https://www.deloittedigital.com
+        description: |
+          - Implemented Salesforce and Vlocity solutions for global clients
+          
+          **Key Projects:**
+          - MultiChoice South Africa (December 2020 - August 2021)
+            - Service Cloud and WebChat Configuration
+            - Vlocity Digital Catalog implementation
+          
+          - Foxtel Australia (May 2020 - December 2020)
+            - Service Cloud, KCS, Knowledge, and Community Cloud implementations
+            - Digital Engagement solutions including Messaging, Chat, and Einstein BOT
+      
+      - layout: right
+        title: Greyc
+        sub_title: Degree Internship
+        caption: August 2019 - December 2019
+        description: |
+          - Research and development in Machine Learning and Graph Theory
+      
+      - layout: right
+        title: Genomix4life srl
+        sub_title: Intern
+        caption: September 2016 - December 2016
+        description: |
+          - Technical internship supporting research operations
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+      - layout: top-right
+        title: Politecnico di Milano
+        sub_title: Master's Degree in Digital Technologies for Innovation
+        caption: 2020 - 2022
+        description: |
+          - Specialized in Digital Business Models, Machine Learning, AI, and UX/UI Design
+          - Attained Salesforce Certifications and in-depth CRM mastery
+          - Honed leadership, time management, and communication skills
+      
+      - layout: top-right
+        title: ENSICAEN - Ecole Nationale Supérieure d'Ingénieurs de Caen
+        sub_title: Machine Learning and Graph Theory
+        caption: 2019 - 2020
+        description: |
+          - Advanced studies in Machine Learning algorithms and Graph Theory applications
+      
+      - layout: top-right
+        title: Università degli Studi di Salerno
+        sub_title: Master's in Computer Engineering
+        caption: 2017 - 2020
+        description: |
+          - Graduate-level computer engineering program with focus on software development
+      
+      - layout: top-right
+        title: Università degli Studi di Salerno
+        sub_title: Bachelor's in Computer Engineering
+        caption: 2014 - 2017
+        description: |
+          - Foundational computer engineering education
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Certifications
+    layout: list
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+      - layout: top
+        title: Salesforce Certifications
+        description: |
+          - 26X Salesforce Certified Developer
+          - Salesforce Certified AI Specialist
+          - Salesforce Certified Data Cloud Consultant
+          - Salesforce Certified Application Architect
+          - Salesforce Certified Platform App Builder
+          - Vlocity Platform Developer
+      
+      - layout: top
+        title: AWS Certifications
+        description: |
+          - AWS Certified Cloud Practitioner
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: Skills & Expertise
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content: |
+      **Technical Skills**
+      - **Salesforce & Vlocity**: CPQ, EPC, Data Raptors, Flex Cards, Omniscripts, LWC, APEX
+      - **Development**: JavaScript, CSS, JSON, VS Code IDE
+      - **Integration**: Jenkins, GIT, Azure DevOps, AutoRabit, Mulesoft
+      - **Methodologies**: Agile, Technical Documentation
+      
+      **Industry Knowledge**
+      - Specialized in Communications, Media, and Technology (CMT) industry solutions
+      - Knowledge of Vlocity Data packs (ESM, MSM)
+      - Exposure to TMForum APIs and Open API standards
+      
+      **Languages**
+      - Italian (Native)
+      - English (Professional Working)
+      - French (Limited Working)
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-remote_theme: sproogen/resume-theme
-
 sass:
   sass_dir: _sass
   style: compressed
