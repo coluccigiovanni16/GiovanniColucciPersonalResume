@@ -68,7 +68,7 @@ content:
       - layout: left
         title: Deloitte Digital
         link: deloittedigital.com
-        link_text: https://www.deloittedigital.com/it/en.html
+        link_text: deloittedigital.com/it/en.html
         sub_title: Senior Salesforce Developer
         caption: March 2020 - Present
         quote: >
