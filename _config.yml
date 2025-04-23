@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Giovanni Colucci
-title: Senior Cloud Engineer | Salesforce & Vlocity Expert
+title: Senior Cloud Engineer | Salesforce Industries Expert
 email: coluccigiovanni16@gmail.com
 website: https://www.linkedin.com/in/coluccigiovanni16
 
@@ -42,7 +42,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: left
+      - layout: top-left
         title: Deloitte Digital
         sub_title: Senior Consultant - Digital Cloud Engineer
         caption: June 2023 - Present
@@ -150,7 +150,6 @@ content:
         description: |
           - Salesforce Certified Data Cloud Consultant
           - Salesforce Certified AI Specialist
-          - Professional Scrum Developer™ I (PSD I)
           - Media Cloud Accredited Professional
           - Salesforce Certified AI Associate
           - Salesforce Certified Application Architect
@@ -182,6 +181,12 @@ content:
         description: |
           - AWS Certified Cloud Practitioner
           - AWS Certified AI Practitioner
+          
+      - layout: top
+        title: Scrum and Agile Certifications
+        description: |
+          - Professional Scrum Developer™ I (PSD I)
+
 
   - title: Skills & Expertise
     layout: text
