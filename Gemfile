@@ -1,9 +1,19 @@
-source "https://rubygems.org"
-
-gem "github-pages", group: :jekyll_plugins
-
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+window.onload = function () {
+    Particles.init({
+        selector: '.background',
+        color: ['#00A1E0', '#50BFE6', '#74c0fc', '#cfe2ff', '#ffffff'],
+        connectParticles: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                options: {
+                    maxParticles: 80
+                }
+            }
+        ],
+        maxParticles: 120,
+        speed: 0.5,
+        sizeVariations: 3,
+        minDistance: 120
+    });
+};
